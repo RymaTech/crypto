@@ -1,0 +1,19 @@
+{
+  "name": "crypto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "NODE_ENV=test node src/tests/getData.test.js | tap-spec",
+    "start": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "env2": "^2.2.2",
+    "nodemon": "^1.18.11",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.10.1"
+  }
+}
